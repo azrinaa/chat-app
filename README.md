@@ -9,5 +9,5 @@ FAQ
 ### How do I start the app?
 
 - Start with `npm install` to install project dependencies
-- Secondly, run ` npm start` to start the application*
-  *Note: Do start the websocket server beforehand.
+- Secondly, run ` npm start` to start the application
+- *Note: Do start the websocket server beforehand.
