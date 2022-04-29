@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Websocket Chat - Login</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+  <h1>Login</h1>
+  <form id="form" class="form">
+    <div class="row">
+      <label for="username">Username</label>
+      <input id="username" class="username" name="username" autocomplete="off" required>
+    </div>
+    <div class="row">
+      <label for="port-no">Port No.</label>
+      <div class="select">
+        <select id="port-no" class="port-no">
+          <option value="" selected>Choose Port</option>
+          <option value="8080">8080</option>
+          <option value="9090">9090</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit">Login</button>
+  </form>
+  <script type="module" src="./LoginScript.js"></script>
+</body>
+
+</html>
